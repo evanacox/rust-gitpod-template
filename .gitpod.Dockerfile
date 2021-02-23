@@ -5,4 +5,4 @@ FROM gitpod/workspace-full
 # RUN brew install bastet
 #
 # More information: https://www.gitpod.io/docs/config-docker/
-RUN apt install llvm llvm-dev clang clang-dev
+RUN sudo apt install llvm llvm-dev clang clang-dev
