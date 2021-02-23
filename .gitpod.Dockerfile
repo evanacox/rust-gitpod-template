@@ -6,4 +6,4 @@ FROM gitpod/workspace-full
 #
 # More information: https://www.gitpod.io/docs/config-docker/
 RUN sudo apt update
-RUN sudo apt install -y llvm llvm-dev clang
+RUN sudo apt install -y llvm llvm-dev clang libclang libclang-dev
