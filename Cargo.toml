@@ -1,0 +1,8 @@
+[package]
+name = "starter"
+version = "0.0.1"
+authors = ["evanacox"]
+
+[dependencies.clang]
+version = "1.0.3"
+features = ["clang_7_0"]
